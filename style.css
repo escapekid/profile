@@ -3,17 +3,16 @@
 
 
 *{
-  margin: 0 auto; /* This automatically sets left/right margins */
+  margin: 0 auto;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  font-size: var(font-md);
 }
 
 .container {
-  /* width: 80vw; */
-  width: 500px;
+  width: 80vw;
   text-align: center;
 }
 
@@ -46,74 +45,54 @@ p {
 }
 .list-inline i {
   margin-top: 8px;
-  font-size: 2rem;
+  font-size: var(--font-xl);
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: black;
+  color: var(--primary-2);
 }
 
 .img-circle {
   border-radius: 50%;
+  padding: var(--sm);
+  /* border: 1px  solid var(--primary-2); */
 }
 
 
 h1 {
- color: #414066;
  font-weight: 900;
  font-style: normal;
  text-transform: uppercase;
-
+ font-size: var(--font-xl);
+ color: var(--primary-1);
 }
 
 h2 {
-  color: #1B2D2A;
+  padding-bottom:var(--sm);
+  color:var(--primary-700);
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
  }
 
  h3 {
-  color: #1B2D2A;
   font-weight: 300;
  }
 
 a {
  text-decoration: none;
- color: #1B2D2A;
  font-weight: 700;
 }
 
 .btn {
   margin: 10px;
-  background-color: black;
+  background-color: var(--neutral-1);
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
   display: inline-block;
 }
 .btn:hover {
-  background-color: #1B2D2A;
+  background-color: var(--primary-2);
   color: white;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 }

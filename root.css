@@ -1,0 +1,28 @@
+/* --------- Design Tokens --------- */
+
+:root {
+  /* Typography  */
+  font-family: 'Montserrat', sans-serif;
+
+  --font-md: 1rem;
+  --font-xl: 2rem;
+
+
+   /* Colours */
+   --neutral-800: #1e293b;
+   --neutral-1 : black;
+
+   --primary-1: #2E294E;
+   --primary-2: #D90368;
+
+
+     /* Spacing  */
+
+  --xxl: 56px;
+  --xl: 40px;
+  --lg: 32px;
+  --md: 24px;
+  --sm: 16px;
+  --xs: 8px;
+  --xxs: 4px;
+}
